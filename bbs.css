@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+
+body {
+ background-color: #00fffc21;
+}
+
+p {
+ margin: 0;
+}
+
+h3 {
+ font-size: 30px;
+ margin-left: 20px;
+}
+
+a {
+ text-decoration:none;
+}
+
+a:hover, .submit:hover {
+ color: #25ceff;
+}
+
+table {
+ background-color: white;
+}
+
+.insert, .mainDisplay, .title, .messagenputResult, .inputResult {
+ margin: 0 50px;
+}
+
+table, th, td {
+ border-collapse: collapse;
+ border: 1px solid;
+}
+
+th {
+ background-color: #0075ff3b;
+}
+
+.insert table {
+ margin-top: 10px;
+}
+
+input {
+ padding: 0;
+ border: none;
+ outline: none;
+}
+
+.submit {
+ padding: 0 5px;
+ background-color: #00fffc00;
+}
+
+.contentsInput {
+ width: 100%;
+}
+
+.contentsInput input {
+ width: 100%;
+}
+
+.label {
+ min-width: 100px;
+}
+
+.button {
+ background-color: #00fffc;
+ border: none;
+}
+
+.subtitle1, .subtitle2, .sort {
+ display: flex;
+ align-items: center;
+}
+
+.subtitle2 h3, .new20 {
+ margin-right: 20px;
+}
+
+.subtitle2 {
+ margin: 20px 0;
+}
+
+.threadList {
+ margin: 0 auto;
+ width: 100%;
+}
+
+.no {
+ width: 50px;
+}
+
+.count {
+ width: 100px;
+}
+
+.noList {
+ text-align: center;
+}
+
+.countList {
+ text-align: center;
+}
+
+.titleRes, .contentsRes {
+ width: 100%;
+}
+
+.contentsRes {
+ font-size: 16px;
+}
+
+.res {
+ display: flex;
+ flex-direction: column;
+}
+
+.resTop {
+ flex: 1;
+ font-size: 1.5em;
+ margin-left: 5px;
+}
+
+.resCenterTop {
+ flex: 1;
+ font-size: 1.5em;
+ margin-left: 5px;
+ align-self: center;
+}
+
+.resBottom {
+ flex: 1;
+ display: flex;
+ margin: 0 20px;
+}
+
+.resRight {
+ margin-left: auto;
+}
+
+.message {
+ color: red;
+ font-size: 20px;
+}
